@@ -11,7 +11,11 @@ int main(void){
 /*
 First solo upload test!
 */
-
+const char *fb[] = {"%d\n", "Fizz\n", "Buzz\n", "FizzBuzz\n"};
+for(int i = 1; i <= 100; i++)
+{
+printf(fb[fbindex(i)],i);
+}
 
 return 0;
 }
