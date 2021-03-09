@@ -1,11 +1,6 @@
 #include <stdio.h>
-int fbindex(int n)
-{
-int i = 0;
-if(n % 3 == 0) i += 1;
-if(n % 5 == 0) i += 2;
-return i; 
-}
+#include "fizzbuzzH.h"
+#include <string.h>
 
 int main(void){
 	int n = 0;
